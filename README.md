@@ -1,29 +1,7 @@
-# bc-mfe
+# MFE Container App
 
-## Project setup
-```
-yarn install
-```
+This is the MFE container app.
 
-### Compiles and hot-reloads for development
-```
-yarn run serve
-```
 
-### Compiles and minifies for production
-```
-yarn run build
-```
-
-### Run your tests
-```
-yarn run test
-```
-
-### Lints and fixes files
-```
-yarn run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+This app assumes that all the micro frontends expose themselves as a plugin.
+Every plugin's `install` function is provided with the `registerMFE` function so the MFE could register its store and routes in the container app.
