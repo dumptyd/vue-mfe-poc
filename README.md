@@ -19,3 +19,7 @@ Run development server
 ```
 yarn serve
 ```
+
+### POC
+
+![2019-07-09 23 21 25](https://user-images.githubusercontent.com/16368429/60911318-8157e900-a2a0-11e9-9fde-921276196425.gif)
